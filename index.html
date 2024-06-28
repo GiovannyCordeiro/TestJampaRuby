@@ -5,7 +5,7 @@ description: Comunidade de desenvolvedores Ruby/Rails de João Pessoa
 data_encontro: 24/05
 horario_encontro: 14hrs
 ---
-<div class="content">
+<main class="content">
   <div class="main-banner">
     <div class="description-community">
       <h2>
@@ -29,4 +29,23 @@ horario_encontro: 14hrs
       </div>
     </div>
   </div>
-</div>
+</main>
+
+<section class="events">
+  <h2>Encontros Realizados!</h2>
+  <div class="wrapper-events">
+
+    {% for post in site.posts %}
+      <div class="unit-event">
+        <h2>
+          <a href="{{post.url}}">
+            {{post.title}}
+          </a>
+        </h2>
+        <p>{{post.description}}</p>
+        <span>{{post.date | date_to_string}}</span>
+      </div>
+    {% endfor %}
+
+  </div>
+</section>
