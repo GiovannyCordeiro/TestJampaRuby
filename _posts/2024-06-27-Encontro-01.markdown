@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Encontro 01"
+description: 'LOREM IPSUM'
+date:   2024-06-27 18:39:28 -0300
+categories: encontro
+---
+
+## {{page.title}}
+
+{{page.description}}
+
+## Agenda
+
+Horario        | Palestra | Palestrante 
+-------------- | -------- | -----------
+08h00 às 08h50 | Como criar PDFs do zero utilizando Ruby   |  fulano
+08h00 às 08h50 | Como criar PDFs do zero utilizando Ruby   |  fulano
+08h00 às 08h50 | Como criar PDFs do zero utilizando Ruby   |  fulano
+08h00 às 08h50 | Como criar PDFs do zero utilizando Ruby   |  fulano
+
+## Palestrantes
+
+### Fulano
+
+descricao do fulano
+
+### Beltrano 
+
+descricao do beltrano
+
+## Local e horario
+
+**Local:** Nome do local
+Descrição mais detalhada do local, rua, numero, bairro, etc.
+
+**Data e Horario**: 27/06/2024
+
+## Inscrições
+
+lorem ipsum
