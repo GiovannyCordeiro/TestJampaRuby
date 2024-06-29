@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div id="post">
+  
+</div>
+
+
+<main class="main-post">
+  <header>
+    <a href="{{ '/' | relative_url }}">
+      <b>Jampa Ruby</b>
+    </a>
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">
+      {{ page.date | date_to_string }}
+    </time>
+  </header>
+
+  <section class="post-content">
+    {{content}}
+  </section>
+</main>
+
+<footer>
+  <div class="wrapper-footer">
+    <i>Jampa Ruby</i>
+  </div>
+</footer>
