@@ -34,7 +34,6 @@ horario_encontro: 14hrs
 <section class="events">
   <h2>Encontros Realizados!</h2>
   <div class="wrapper-events">
-
     {% for post in site.posts %}
       <div class="unit-event">
         <h2>
@@ -46,6 +45,5 @@ horario_encontro: 14hrs
         <span>{{post.date | date_to_string}}</span>
       </div>
     {% endfor %}
-
   </div>
 </section>
